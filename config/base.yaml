@@ -1,0 +1,12 @@
+seed: 42
+paths:
+  data_dir: data
+  splits_dir: splits
+  reports_dir: reports
+dataset:
+  min_user_interactions: 5
+  min_item_interactions: 5
+  last_k_test: 1
+  last_k_val: 1
+evaluation:
+  K: [10, 20]
